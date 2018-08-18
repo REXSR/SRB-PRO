@@ -437,7 +437,7 @@ const secreT = [
 
      if (message.author.bot) return;
 
-   if (message.content.startsWith("rخواطر")) {
+   if (message.content.startsWith("#gخواطر")) {
 
                 if(!message.channel.guild) return message.reply('** This command only for servers**');
 
@@ -465,7 +465,7 @@ const Love = [  "**احبك / عدد قطرات المـــطر والشجر و
 
      if (message.author.bot) return;
 
-   if (message.content.startsWith("rحب")) {
+   if (message.content.startsWith("#gحب")) {
 
                 if(!message.channel.guild) return message.reply('** This command only for servers**');
 
@@ -595,7 +595,7 @@ const zead = [
 
      if (message.author.bot) return;
 
- if (message.content.startsWith('rمريم')) {
+ if (message.content.startsWith('#gمريم')) {
 
   var mariam= new Discord.RichEmbed()
 
@@ -617,7 +617,7 @@ const zead = [
 
 client.on('message', function(message) {
 
-  var prefix = 'r';
+  var prefix = '#g';
 
   if (message.author.bot) return;
 
@@ -701,7 +701,7 @@ const kingmas = [
 
  client.on('message', message => {
 
-   var prefix = 'r';
+   var prefix = '#g';
 
    if (message.author.bot) return;
 
