@@ -11,6 +11,37 @@ client.on('message', msg => {
   }
 });
 
+client.on('message', message => {
+            if (message.content.startsWith(prefix + "#ghelp")) {
+     let embed = new Discord.RichEmbed()
+.setThumbnail(message.author.avatarURL)
+.addField('     **كت تويت** ' , '**لعبة الكت تويت**')
+.addField('     ** عقاب** ' ,' **لعبة عقاب** ')
+.addField('     **صراحه ** ' ,' **لعبة صراحه** ')
+.addField('     **خواطر** ' ,' **لعبة خواطر** ')
+.addField('     **حب** ' ,' **لعبة حب** ')
+.addField('     **مريم** ' ,' **لعبة مريم** ')
+.addField('     **قرعه** ' ,' **لعبة القرعه** ')
+.addField('     **حكم** ' ,' **لعبة حكم** ')
+     .setColor('#7d2dbe')
+  message.channel.sendEmbed(embed);
+    }
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -31,7 +62,11 @@ const Sra7a = [
 
      'صراحه  |  يدل على أن الكذب مرات تكون ضرورية شي؟',
 
-     'صراحه  |  أشعر بالوحدة على الرغم من أنني تحيط بك كثيرا؟',
+     'صراحه  |  
+	
+	
+	
+	
 
      'صراحه  |  كيفية الكشف عن من يكمن عليك؟',
 
@@ -586,7 +621,6 @@ const zead = [
 
    '*** احد ما خرج من المنزل ***',
 
-   '*** انتظر الجزء الثاني عندما يوصل البوت 100 سيرفر , ساعدني في نشر البوت وادخل هذا السيرفر  ***'
 
 ]
 
