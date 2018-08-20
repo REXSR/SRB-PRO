@@ -23,7 +23,6 @@ client.on('message', message => {
 .addField('     **مريم** ' ,' **لعبة مريم** ')
 .addField('     **قرعه** ' ,' **لعبة القرعه** ')
 .addField('     **حكم** ' ,' **لعبة حكم** ')
-.addField('     **اسرع كتابة** ' ,' **لعبة اسرع كتابة** ') SOON|قريبا
      .setColor('#7d2dbe')
   message.channel.sendEmbed(embed);
     }
