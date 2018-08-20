@@ -14,6 +14,7 @@ client.on('message', msg => {
 client.on('message', message => {
             if (message.content.startsWith(prefix + "#ghelp")) {
      let embed = new Discord.RichEmbed()
+`]
 .setThumbnail(message.author.avatarURL)
 .addField('     **كت تويت** ' , '**لعبة الكت تويت**')
 .addField('     ** عقاب** ' ,' **لعبة عقاب** ')
@@ -25,7 +26,8 @@ client.on('message', message => {
 .addField('     **حكم** ' ,' **لعبة حكم** ')
      .setColor('#7d2dbe')
   message.channel.sendEmbed(embed);
-    }
+`]    
+  }
 });
 
 
