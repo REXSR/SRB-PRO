@@ -4,7 +4,7 @@ const prefix = 'r'
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
-
+  
 client.on('ready', () => {
     client.user.setActivity("Great Games",{type: 'streaming'})
 });
