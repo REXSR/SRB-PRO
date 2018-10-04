@@ -1,17 +1,15 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const prefix = 'r'
+const prefix = '#'
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
   
 client.on('ready', () => {
-    client.user.setActivity("Great Games",{type: 'streaming'})
+    client.user.setActivity("play Games",{type: 'streaming'})
 });
 
-const {Client, RichEmbed} = require('discord.js');
 
-const client = new Client();
 
 const fs = require('fs');
 
@@ -21,7 +19,7 @@ client.on('message', message => {
 
     if (!points[message.author.id]) points[message.author.id] = {points : 0}
 
-    if (message.content == 'rنقاطي'){
+    if (message.content == 'نقاطي'){
 
         var embed = new RichEmbed()
 
@@ -37,7 +35,7 @@ client.on('message', message => {
 
     };
 
-    if (message.content == "rفكك") {    
+    if (message.content == "فكك") {    
 
         var x = ['ضفدع', 'طيارة', 'واو', 'تفكيك', 'تجربة', 'مدرسة', 'معلم' , 'نقاط'];
 
@@ -87,7 +85,7 @@ client.on('message', message => {
 
     })
 
-  if (message.content == "rعواصم") {
+  if (message.content == "عواصم") {
 
         var x = ['اليمن', 'مصر', 'الجزائر', 'السعودية', 'الصومال', 'العراق' , 'الامارات' , 'سوريا'];
 
@@ -137,7 +135,7 @@ client.on('message', message => {
 
     })
 
-    if (message.content == "rلغز") {
+    if (message.content == "لغز") {
 
         var x = ['كلي ثقوب ومع ذلك أحفظ الماء فمن أكون ؟', 'ما هو الشيء الذي يمشي و يقف وليس له أرجـل ؟', 'ما هو الشئ الذي يرفع اثقال ولا يقدر يرفع مسمار ؟', 'يسمع بلا أذن ويتكلم بلا لسان فما هو ؟', 'ماهو الشيء الذي يكتب و لا يقرأ ؟', 'ماهو الشيء الذي يكون اخضر في الارض واسود في السوق واحمــر في البيت ؟', 'عائلة مؤلفة من 6 بنات وأخ لكل منهن، فكم عدد أفراد العائلة ؟', 'يتحرك دائماً حواليك لكنك لاتراه فما هو ؟' ,'ما هو البليون ؟'];
 
@@ -187,7 +185,7 @@ client.on('message', message => {
 
     })
 
-  if (message.content == "rتحدي") {    
+  if (message.content == "تحدي") {    
 
         var x = ['ف ض ع د', 'ص ش خ', 'ة د ا ر ج', 'ا ر ي ة س', 'ي ت ب', 'ئ ا ع ل ة', ' ا ش ي', 'ن ح و ي ا', 'س د و ي ك ر د', 'ر ط ي ا ة' , 'ن ح ز ل و'];
 
